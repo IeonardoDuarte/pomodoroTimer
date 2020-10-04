@@ -1,0 +1,50 @@
+.invisivel {
+    display: none;
+}
+
+.selecionado {
+    background-color: rgba(0, 0, 0, 0.200);
+}
+
+.main {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.botoes-tempo {
+    display: flex;
+    margin: 5% 20%;
+}
+
+.botao-tempo {
+    border-left: 1px solid black;
+    font-size: 1.5rem;
+    width: 33.33%;
+}
+
+.botao-tempo:nth-child(1) {
+    border-radius: 10px 0 0 10px;
+}
+
+.botao-tempo:nth-child(3) {
+    border-radius: 0 10px 10px 0;
+}
+
+.timer {
+    font-size: 10rem;
+    font-weight: bold;
+}
+
+.botao-controle {
+    font-size: 2rem;
+    margin-top: 5%;
+    width: 33%;
+}
+
+.btIniciar {
+    background-color: rgb(49, 209, 49);
+}
+
+.btReiniciar {
+    background-color: rgb(255, 58, 58);
+}
